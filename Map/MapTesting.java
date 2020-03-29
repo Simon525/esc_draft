@@ -52,7 +52,7 @@ public class BrowserTest {
 					//navigate to the link
 					driver.navigate().to(buttons.get(i).getAttribute("href"));
 					Thread.sleep(3000);
-					//click the back button in browser
+					//click the back button in the browser
 					driver.navigate().back();
 					buttons = driver.findElements(By.tagName("button"));
 					System.out.println("*** Navigated to" + " " + buttons.get(i).getAttribute("href"));
