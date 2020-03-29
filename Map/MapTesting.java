@@ -54,7 +54,7 @@ public class BrowserTest {
 					Thread.sleep(3000);
 					//click the back button in browser
 					driver.navigate().back();
-					buttons = driver.findElements(By.tagName("a"));
+					buttons = driver.findElements(By.tagName("button"));
 					System.out.println("*** Navigated to" + " " + buttons.get(i).getAttribute("href"));
 					staleElementLoaded = false;
 				} catch (StaleElementReferenceException e) {
