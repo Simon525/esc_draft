@@ -49,7 +49,7 @@ public class BrowserTest {
 			//the loop checks whether the elements is properly loaded
 			while(staleElementLoaded) {
 				try {
-					//navigate to the link
+					//navigate to this link
 					driver.navigate().to(buttons.get(i).getAttribute("href"));
 					Thread.sleep(3000);
 					//click the back button in the browser
