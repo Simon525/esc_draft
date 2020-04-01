@@ -34,7 +34,7 @@ public class BrowserTest {
 			System.out.println(i + " " + buttons.get(i).getAttribute("href"));
 		}
 		
-		// maximize the browser window
+		// maximize the browser windows
 		driver.manage().window().maximize();
 		
 		// click all links in a web page
